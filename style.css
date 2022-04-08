@@ -5,6 +5,13 @@
 		src: url("assets/BasquiatRegular.otf");
 }
 
+html,
+body {
+  user-select: none;
+  touch-action: none;
+  -webkit-user-select: none;
+}
+
 body {
 	background-color: #000;
 	color: #fff;
