@@ -1,0 +1,42 @@
+/*CSS*/
+
+@font-face {
+		font-family: BasquiatRegular;
+		src: url("assets/BasquiatRegular.otf");
+}
+
+body {
+	background-color: #000;
+	color: #fff;
+	font-family: BasquiatRegular;
+	cursor: crosshair;
+	font-size: 2vw;
+}
+
+canvas {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+
+.clear {
+	position: absolute;
+	z-index: 3;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 40px;
+}
+
+
+.save {
+	position: absolute;
+	z-index: 3;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 40px;
+	cursor: pointer;
+}
