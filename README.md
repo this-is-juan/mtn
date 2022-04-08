@@ -1,3 +1,3 @@
 # mtn
 
-https://user-images.githubusercontent.com/76165392/162466086-174b49d5-efbc-4c5e-a1c0-409a1d6e36cf.mp4
+![Untitled](https://user-images.githubusercontent.com/76165392/162466663-d0377052-5f16-42d2-a897-94409c4c3aaa.png)
