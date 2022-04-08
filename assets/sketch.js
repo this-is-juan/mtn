@@ -30,15 +30,16 @@ function draw() {
       let theta = random(0, TWO_PI);
       let h = randomGaussian();
       let r = (exp(h) - 1) / (exp(h) + 1);
-      let x = 200 * r * cos(theta);
-      let y = 200 * r * sin(theta);
+      let x = 300 * r * cos(theta);
+      let y = 300 * r * sin(theta);
 
-      ellipse(x , y ,1,1); 
+      ellipse(x , y ,10,10); 
 
     }
   } 
   
 }
+
 
 function keyPressed() {
 
