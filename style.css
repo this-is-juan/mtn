@@ -38,7 +38,8 @@ img.thisisjuan {
   }
   
   button.icons {
-	background: none;
+	background: #131313;
+	border-radius: 1rem;
 	border: none;
 	outline: none;
 	padding: 1rem;

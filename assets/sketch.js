@@ -44,6 +44,7 @@ function mySave() {
 }
 
 function deleteDraw() {
+  clear();
   location.reload();
     return false;
 }
