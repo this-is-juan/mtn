@@ -36,23 +36,14 @@ function draw() {
       ellipse(x , y ,10,10); 
 
     }
-  } 
-  
-}
-
-
-function keyPressed() {
-
-  if (keyCode === BACKSPACE) {
-    location.reload();
-    return false;
-  }
-
+  }   
 }
 
 function mySave() {
     save('spray.png');
 }
 
-
-
+function deleteDraw() {
+  location.reload();
+    return false;
+}

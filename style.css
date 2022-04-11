@@ -7,25 +7,56 @@
 
 html,
 body {
+margin: 0;
   user-select: none;
   touch-action: none;
   -webkit-user-select: none;
 }
 
 body {
-	background-color: #000;
+	background-color: #131313;
 	color: #fff;
 	font-family: BasquiatRegular;
 	cursor: crosshair;
 	font-size: 2vw;
 }
 
+img.thisisjuan {
+	width: 80px;
+}
+
+.site-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3rem 4vw;
+  }
+  
+   .buttons {
+	   display: flex;
+	   align-items: center;
+  }
+  
+  button.icons {
+	background: none;
+	border: none;
+	outline: none;
+	padding: 1rem;
+	margin-left: 1rem;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	  background: #000;
+	  border-radius: 1rem;
+  }
+
 canvas {
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	z-index: 2;
+	z-index: -1;
 }
 
 .clear {
@@ -35,15 +66,4 @@ canvas {
 	left: 50%;
 	transform: translateX(-50%);
 	margin-top: 40px;
-}
-
-
-.save {
-	position: absolute;
-	z-index: 3;
-	text-align: center;
-	left: 50%;
-	transform: translateX(-50%);
-	bottom: 40px;
-	cursor: pointer;
 }
