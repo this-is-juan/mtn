@@ -6,19 +6,21 @@
 }
 
 html,
-body {
+body,
+p {
 margin: 0;
   user-select: none;
   touch-action: none;
   -webkit-user-select: none;
 }
 
+
 body {
 	background-color: #131313;
 	color: #fff;
 	font-family: BasquiatRegular;
 	cursor: crosshair;
-	font-size: 2vw;
+	font-size: 2rem;
 }
 
 img.thisisjuan {
